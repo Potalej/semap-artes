@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bottom</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Tiny5&display=swap" rel="stylesheet">
+
+  <style>
+    .fonte1 {
+      font-family: "Jersey 10", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    .fonte2 {
+      font-family: "Tiny5", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .fonte {
+      font-family: "Jersey 15", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+
+      text-shadow: 5px 1px 5px black;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      /* background-color: gray; */
+    }
+    .bottom {
+      /* background-image: url("../img/2026/identidade_visual/logo_sem_bordo_sem_bg.png"); */
+      background-image: url("./img/fractal3_detalhes.png");
+      /* background-image: url("./fractal_540.png"); */
+      /* background-image: url("./logo_contrario.png"); */
+      background-repeat: no-repeat;
+      background-size: 107%;
+      background-position: center;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background-color: #011335;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .bottom .imagem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      color: white;
+      font-size: 44px;
+      /* font-family: Impact; */
+      font-family: cursive;
+      font-weight: bolder;
+      text-align: center;
+      z-index: 2;
+      margin-top: -5px;
+    }
+    .bottom .imagem img {
+      width: 60%;
+    }
+    .sombra {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0);
+      z-index: 1;
+      position: absolute;
+    }
+    .imagem .fonte {
+      /* margin-top: -10px; */
+      line-height: 30px;
+    }
+    span {
+      font-size: 35px;
+      margin-top: -10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="bottom">
+    <div class="sombra"></div>
+    <div class="imagem">
+      <!-- <img src="../img/semapinho/semapinho_sem_fundo.png"> -->
+      <!-- <img src="./semapinho_sf_crop.png"> -->
+       <img src="./img/semapinho_is.png">
+      <div class="fonte">
+        SeMAP
+        <br>
+        <span>2026</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
